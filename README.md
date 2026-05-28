@@ -36,16 +36,17 @@ rol relevante en sus medidas de mitigación capaz de revertir posiciones netas d
 
 ```
 .
-├── code/         # Scripts de Stata, R y Python para replicar resultados
-|   ├── 2.1_do_files/         # Código en stata (grafico motivacion FSB)
-│   ├── 2.2_ipynbs/           # Código en Python (limpieza de datos, gráficos y grafos)
-│   └── 2.3_Rs/               # Código en R (modelo DY, estimaciones)
-|
-├── data/         # Datos
+
+├── 1_datos/         # Datos
 │   ├── 0_data_original/      # Datos crudos
 │   └── 1_clean_data/         # Datos procesados, listos para análisis
 |
-├── output/       # Tablas y figuras generadas por el código
+├── 2_codigo/         # Scripts de Stata, R y Python para replicar resultados
+|   ├── 2.1_do_files/         # Código en stata (grafico motivacion FSB)
+│   ├── 2.2_ipynbs/           # Código en Python (limpieza de datos, gráficos y grafos)
+│   └── 2.3_Rs/               # Código en R (distintas especificaciones metodología DY, estimaciones)
+|
+├── 3_resultados/       # Tablas y figuras generadas por el código
 │   ├── 3_resultados_he_red/  # figuras, tablas y grafos
 │   └── 3.2_resultado_DY/     # distintas salidas de metodología DY
 |
